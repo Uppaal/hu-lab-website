@@ -18,13 +18,6 @@ title: ""
       </ul>
     </div>
 
-    <div class="mt-3 card-lite">
-      <h5 class="mb-2">Highlights</h5>
-      <ul class="mb-0">
-        <li><a href="{{ site.baseurl }}/publications/">Recent publications</a></li>
-        <li><a href="{{ site.baseurl }}/join/">Open positions</a></li>
-      </ul>
-    </div>
   </div>
 
   <div class="card-lite">
