@@ -2,9 +2,8 @@ pi:
   name: "Prof. Junjie Hu"
   title: "Assistant Professor, Department of Computer Sciences"
   affiliation: "University of Wisconsin-Madison"
-  links:
-    - label: "Website"
-      url: "https://junjiehu.github.io/"
+  photo: "assets/photos/junjie-hu.png"
+  website: "https://junjiehu.github.io/"
 
 students:
   - name: "Rheeya Uppaal"
