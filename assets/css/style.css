@@ -1,5 +1,6 @@
 :root {
   --max-width: 980px;
+  --highlight-color: #b00020; /* deep red */
 }
 
 .page-content {
@@ -17,6 +18,27 @@
   margin-bottom: 0;
   color: #555;
 }
+
+/* Headings inside page content (not the main page title) */
+.page-content h2 {
+  font-size: 1.4rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.page-content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-content h4 {
+  font-size: 1.05rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
 
 .hero {
   display: grid;
@@ -71,7 +93,7 @@
 }
 
 .text-highlight {
-  color: #b00020;   /* deep red */
+  color: var(--highlight-color);
   font-weight: 500;
 }
 
@@ -93,4 +115,23 @@
 .carousel-img {
   height: 420px;
   object-fit: cover;
+}
+
+a {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--highlight-color);
+  text-decoration: underline;
+}
+
+
+.navbar a {
+  color: #333;
+}
+
+.navbar a:hover {
+  color: var(--highlight-color);
 }
