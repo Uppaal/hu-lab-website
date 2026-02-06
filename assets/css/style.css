@@ -6,7 +6,7 @@
 .page-content {
   max-width: var(--max-width);
   padding-top: 1.75rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 .page-title {
@@ -154,20 +154,20 @@ a:hover {
 
 footer {
   background-color: var(--highlight-color);
-  color: #ffffff;
+  color: #ffffff !important;
+  border-top: none !important;
+}
+
+footer * {
+  color: #ffffff !important;
 }
 
 footer a {
-  color: #ffffff;
   text-decoration: underline;
 }
 
 footer a:hover {
-  color: #f5d6d9;
-}
-
-footer {
-  border-top: none;
+  color: #f5d6d9 !important;
 }
 
 /* Two-column people layout */
