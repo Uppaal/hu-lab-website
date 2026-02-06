@@ -74,6 +74,7 @@
   border: 1px solid rgba(0,0,0,.08);
 }
 .person .meta { color: #555; font-size: 0.95rem; }
+
 .badge-lite {
   display: inline-block;
   padding: 0.15rem 0.5rem;
@@ -82,6 +83,11 @@
   font-size: 0.8rem;
   color: #444;
 }
+.badge-lite:hover {
+  background-color: rgba(176, 0, 32, 0.08); /* light red tint */
+  border-color: var(--highlight-color);
+}
+
 
 /* Emphasis / semantic colors */
 .text-accent {
@@ -229,5 +235,58 @@ footer a:hover {
   .advisor-photo {
     width: 120px;
     height: 120px;
+  }
+}
+
+/* Alumni grid */
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.alumni-card {
+  text-align: center;
+}
+
+.alumni-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+  margin-bottom: 0.5rem;
+}
+
+.alumni-name {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.alumni-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.alumni-name a:hover {
+  text-decoration: underline;
+}
+
+.alumni-role {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsive fallbacks */
+@media (max-width: 900px) {
+  .alumni-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .alumni-grid {
+    grid-template-columns: 1fr;
   }
 }

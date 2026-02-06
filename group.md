@@ -17,7 +17,13 @@ subtitle: "People in the lab"
     {% endif %}
 
     <div>
-      <div class="advisor-name">{{ pi.name }}</div>
+      <div class="advisor-name">
+          {% if pi.website and pi.website != "" %}
+            <a href="{{ pi.website }}">{{ pi.name }}</a>
+          {% else %}
+            {{ pi.name }}
+          {% endif %}
+      </div>
       <div class="text-muted">{{ pi.title }}</div>
       <div class="text-muted mb-3">{{ pi.affiliation }}</div>
 
@@ -61,12 +67,27 @@ subtitle: "People in the lab"
 {% endfor %}
 </div>
 
+
 ## Alumni
-<ul>
-{% for a in site.data.people.alumni %}
-  <li>
-    {% if a.website and a.website != "" %}<a href="{{ a.website }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}
-    — {{ a.role }}
-  </li>
-{% endfor %}
-</ul>
+
+<div class="alumni-grid">
+  {% for a in site.data.people.alumni %}
+    <div class="alumni-card">
+      {% if a.photo and a.photo != "" %}
+        <img src="{{ site.baseurl }}/{{ a.photo }}" alt="{{ a.name }}" class="alumni-photo">
+      {% else %}
+        <img src="https://via.placeholder.com/120" alt="{{ a.name }}" class="alumni-photo">
+      {% endif %}
+
+      <div class="alumni-name">
+        {% if a.website and a.website != "" %}
+          <a href="{{ a.website }}">{{ a.name }}</a>
+        {% else %}
+          {{ a.name }}
+        {% endif %}
+      </div>
+
+      <div class="alumni-role">{{ a.role }}</div>
+    </div>
+  {% endfor %}
+</div>
