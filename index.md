@@ -21,11 +21,15 @@ title: ""
   </div>
 
 <div class="carousel-frame">
-  <div id="labCarousel" class="carousel slide" data-bs-ride="false">
+  <div id="labCarousel"
+     class="carousel slide"
+     data-bs-ride="carousel"
+     data-bs-interval="3000">
+
     <div class="carousel-inner">
 
       <!--
-      <div class="carousel-item active">
+      <div class="carousel-item">
         <img
           src="{{ site.baseurl }}/assets/photos/lab-2025-fall.jpg"
           class="d-block w-100 carousel-img"
@@ -37,7 +41,7 @@ title: ""
       </div>
       -->
 
-      <div class="carousel-item active">
+      <div class="carousel-item">
         <img
           src="{{ site.baseurl }}/assets/photos/lab-2023-spring.jpg"
           class="d-block w-100 carousel-img"
