@@ -45,7 +45,7 @@ title: ""
       <!--
       <div class="carousel-item active">
         <img
-          src="{{ site.baseurl }}/assets/img/lab-2025-fall.jpg"
+          src="{{ site.baseurl }}/assets/photos/lab-2025-fall.jpg"
           class="d-block w-100 carousel-img"
           alt="New lab photo"
         />
@@ -57,7 +57,7 @@ title: ""
 
       <div class="carousel-item active">
         <img
-          src="{{ site.baseurl }}/assets/img/lab-2024-spring.jpg"
+          src="{{ site.baseurl }}/assets/photos/lab-2024-spring.jpg"
           class="d-block w-100 carousel-img"
           alt="New lab photo"
         />
@@ -68,7 +68,7 @@ title: ""
 
       <div class="carousel-item active">
         <img
-          src="{{ site.baseurl }}/assets/img/lab-2023-spring.jpg"
+          src="{{ site.baseurl }}/assets/photos/lab-2023-spring.jpg"
           class="d-block w-100 carousel-img"
           alt="New lab photo"
         />
@@ -82,7 +82,7 @@ title: ""
 
       <div class="carousel-item">
         <img
-          src="{{ site.baseurl }}/assets/img/another-photo.jpg"
+          src="{{ site.baseurl }}/assets/photos/another-photo.jpg"
           class="d-block w-100 carousel-img"
           alt="Another lab photo"
         />
