@@ -2,8 +2,6 @@ pi:
   name: "Prof. Junjie Hu"
   title: "Assistant Professor, Department of Computer Sciences"
   affiliation: "University of Wisconsin-Madison"
-  email: " junjie.hu@wisc.edu or jhu@cs.wisc.edu"
-  office: "Morgridge Hall 5663, 1205 University Ave, Madison, WI 53706"
   links:
     - label: "Website"
       url: "https://junjiehu.github.io/"

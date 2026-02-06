@@ -4,6 +4,33 @@ title: "Group"
 subtitle: "People in the lab"
 ---
 
+{% assign pi = site.data.people.pi %}
+
+<div class="advisor-row card-lite">
+  <h2 class="mb-3">Faculty</h2>
+
+  <div class="advisor-grid">
+    {% if pi.photo and pi.photo != "" %}
+      <img src="{{ site.baseurl }}/{{ pi.photo }}" alt="{{ pi.name }}" class="advisor-photo">
+    {% else %}
+      <img src="https://via.placeholder.com/140" alt="{{ pi.name }}" class="advisor-photo">
+    {% endif %}
+
+    <div>
+      <div class="advisor-name">{{ pi.name }}</div>
+      <div class="text-muted">{{ pi.title }}</div>
+      <div class="text-muted mb-3">{{ pi.affiliation }}</div>
+
+      <div class="d-flex flex-wrap gap-2">
+        {% for l in pi.links %}
+          <a class="badge-lite text-decoration-none" href="{{ l.url }}">{{ l.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
 ## Graduate students
 <div class="people-grid">
 {% for p in site.data.people.students %}

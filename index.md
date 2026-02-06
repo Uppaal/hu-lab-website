@@ -20,24 +20,6 @@ title: ""
 
   </div>
 
-  <div class="card-lite">
-    {% assign pi = site.data.people.pi %}
-    <h5 class="mb-2">PI</h5>
-    <div class="mb-2 fw-semibold">{{ pi.name }}</div>
-    <div class="text-muted small mb-2">{{ pi.title }}<br/>{{ pi.affiliation }}</div>
-    <div class="small">
-      <div><span class="text-muted">Email:</span> {{ pi.email }}</div>
-      <div><span class="text-muted">Office:</span> {{ pi.office }}</div>
-    </div>
-    <hr/>
-    <div class="d-flex flex-wrap gap-2">
-      {% for l in pi.links %}
-        <a class="badge-lite text-decoration-none" href="{{ l.url }}">{{ l.label }}</a>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
 <div class="carousel-frame">
   <div id="labCarousel" class="carousel slide" data-bs-ride="false">
     <div class="carousel-inner">
