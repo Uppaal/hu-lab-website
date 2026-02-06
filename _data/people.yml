@@ -1,0 +1,98 @@
+pi:
+  name: "Prof. Junjie Hu"
+  title: "Assistant Professor, Department of Computer Sciences"
+  affiliation: "University of Wisconsin-Madison"
+  email: " junjie.hu@wisc.edu or jhu@cs.wisc.edu"
+  office: "Morgridge Hall 5663, 1205 University Ave, Madison, WI 53706"
+  links:
+    - label: "Website"
+      url: "https://junjiehu.github.io/"
+
+students:
+  - name: "Rheeya Uppaal"
+    role: "PhD in CS, Spring 2022-"
+    interests: ["AI Safety", "Interpretability", "Generalization"]
+    website: "https://uppaal.github.io/"
+    photo: "assets/photos/rheeya-uppaal.jpg"
+
+  - name: "Tim Ossowski"
+    role: "PhD in CS, Fall 2022-"
+    interests: ["Multimodal retrieval", "MLLMs for biomedicine", "LLM agents"]
+    website: "https://tossowski.github.io/website/"
+    photo: "assets/photos/tim-ossowski.png"
+
+  - name: "Binwei Yao"
+    role: "PhD in CS, Fall 2023-"
+    interests: [ "Pluralistic alignment", "Personalization", "Evaluation"]
+    website: "https://bigbinnie.github.io/"
+    photo: "assets/photos/binwei-yao.jpg"
+
+  - name: "Zefan Cai"
+    role: "PhD in CS, Fall 2024-"
+    interests: [ "LLM Efficienc", "LLM Architecture", "LLM Memorization"]
+    website: "https://zefan-cai.github.io/"
+    photo: "assets/photos/zefan-cai.jpeg"
+
+  - name: "Ishita Kakkar"
+    role: "PhD in CS, Fall 2025-"
+    interests: [ "Interpretability" ]
+    website: "https://ikakkar03.github.io/"
+    photo: "assets/photos/ishita-kakkar.jpg"
+
+
+alumni:
+  - name: "Himanshu Chaudhary"
+    role: "MS in CS"
+    website: "https://www.linkedin.com/in/himanshu-chaudhary-929720147/"
+
+  - name: "Tara Bobinac"
+    role: "MS in CS"
+    website: "https://www.linkedin.com/in/tarabobinac/"
+
+  - name: "Karthik Suresh"
+    role: "MS in CS"
+    website: "https://www.linkedin.com/in/karthik-suresh-3240/"
+
+  - name: "Shan Leng"
+    role: "MS in Stats, now PhD in BDS at UW-Madison"
+    website: "https://www.linkedin.com/in/shan-leng-025206256/"
+
+  - name: "Agam Goyal"
+    role: "BS in CS, now PhD in CS at UIUC"
+    website: "https://agoyal0512.github.io/"
+
+  - name: "Samarth Mathur"
+    role: "MS in ECE, now software engineer at Supernova Technology"
+    website: "https://www.linkedin.com/in/samarth-mathur1/"
+
+  - name: "Yuye Jiang"
+    role: "MS in CS, now software engineer at Oracle"
+    website: "https://www.linkedin.com/in/yuye-jiang-xx/"
+
+  - name: "Gowtham Ramesh"
+    role: "MS in CS, now applied research scientist at AMD"
+    website: "https://www.linkedin.com/in/gowtham1/?originalSubdomain=in"
+
+  - name: "Jack Ziyang Cai"
+    role: "BS in ECE/Math -> MS in ECE"
+    website: "https://www.linkedin.com/in/jackcai1206/"
+
+  - name: "Ruixue Lian"
+    role: "PhD in ECE, co-advised w/ Prof. William Sethares, now applied scientist at Amazon AWS"
+    website: "https://www.linkedin.com/in/ruixue-lian-918bb6110/"
+
+  - name: "Makesh Narsimhan Sreedhar"
+    role: "MS in CS, now research engineer at NVIDIA"
+    website: "https://scholar.google.com/citations?user=1BGJ0YMAAAAJ&hl=en"
+
+  - name: "Shilu He"
+    role: "MS in Math, now software engineer at Amazon Alexa"
+    website: "https://github.com/Aurora-He"
+
+  - name: "Shanchao Liang"
+    role: "BS in CS/Math, now PhD in CS at Purdue"
+    website: "https://www.linkedin.com/in/shanchao-liang-106480195/"
+
+  - name: "Shunchi Zhang"
+    role: "Exchange student from XJTU, now MS in CS at JHU"
+    website: "https://shunchizhang.github.io/"
