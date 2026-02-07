@@ -228,6 +228,10 @@ footer a:hover {
   font-weight: 600;
 }
 
+.advisor-row h2 {
+  margin-top: 0;
+}
+
 @media (max-width: 800px) {
   .advisor-grid {
     grid-template-columns: 1fr;
