@@ -4,6 +4,11 @@ This repository contains the source code for the lab website, hosted via GitHub 
 
 The site is data-driven where possible (people, publications), so most updates do not require editing HTML.
 
+The website can currently be accessed at:
+```
+https://uppaal.github.io/lab-website/
+```
+
 ## Deployment (One-Time)
 
 The site is deployed via GitHub Pages.
